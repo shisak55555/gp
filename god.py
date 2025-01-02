@@ -15,7 +15,7 @@ admin_id = ["7409754329"]
 
 # Group and channel details
 GROUP_ID = "-1002410640320"
-CHANNEL_USERNAME = "https://t.me/+blZi-C4ujVszZTQ1"
+CHANNEL_USERNAME = "@GODCRACKSS"
 
 # Default cooldown and attack limits
 COOLDOWN_TIME = 300  # Cooldown in seconds
@@ -64,7 +64,7 @@ def handle_attack(message):
 
     # Ensure user is in the group
     if message.chat.id != int(GROUP_ID):
-        bot.reply_to(message, "This bot can only be used in the specified group. Join - https://t.me/+blZi-C4ujVszZTQ1")
+        bot.reply_to(message, "This bot can only be used in the specified group. Join - https://t.me/GODDDOSFREE")
         return
 
     # Ensure user is a member of the channel
@@ -196,7 +196,7 @@ def view_users(message):
 @bot.message_handler(commands=['start'])
 def welcome_start(message):
     user_name = message.from_user.first_name
-    response = f"Welcome to Your Home, Feel Free to Explore.\nThe World's Best Ddos Bot\nTo Use This Bot Join https://t.me/+blZi-C4ujVszZTQ1"
+    response = f"Welcome to Your Home, Feel Free to Explore.\nThe World's Best Ddos Bot\nTo Use This Bot Join https://t.me/GODDDOSFREE"
     bot.reply_to(message, response)
 
 # Function to reset daily limits automatically
